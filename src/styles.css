@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 1px 1px 10px #ccc;
 }
 
 .nav-bar ul {
@@ -10,6 +11,19 @@
   display: flex;
 }
 
-.nav-bar li {
+.nav-bar ul > li {
   padding: 10px;
+}
+
+.nav-bar p {
+  margin-left: 10px;
+}
+
+.foot {
+  background-color: rgb(53, 53, 53);
+  color: #fff;
+}
+
+.foot small {
+  text-align: center;
 }
